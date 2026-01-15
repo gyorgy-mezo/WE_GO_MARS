@@ -23,13 +23,28 @@ This tree organizes prompts for interrogating language models about Mars mission
 - 0.1 Mission Phases and Timeline
   - 0.1.1 How long is each mission phase (assembly, outbound transit, surface stay, return)?
     - 0.1.1.1 What baseline timeline is assumed in current NASA/ESA DRMs?
+      - 0.1.1.1.1 Which DRMs (e.g., DRA 5.0, NASA 2024) underpin those baselines?
+      - 0.1.1.1.2 How are precursor cargo, crew, and relay missions sequenced in the baseline?
     - 0.1.1.2 How do propulsion options (chemical, nuclear thermal, electric) alter phase duration?
+      - 0.1.1.2.1 What Δv budgets and propellant masses does each option require?
+      - 0.1.1.2.2 How do propulsion choices affect launch cadence and refueling strategy?
     - 0.1.1.3 What are the cumulative exposure implications for each timeline?
+      - 0.1.1.3.1 How does total mission dose vary with transit duration?
+      - 0.1.1.3.2 What trade studies compare radiation vs. propulsion cost for fast transits?
   - 0.1.2 What assumptions underpin nominal vs. fast-transit trajectories?
     - 0.1.2.1 What Δv budgets and propellant masses are required?
     - 0.1.2.2 How do faster trajectories trade propulsion demands against radiation exposure?
     - 0.1.2.3 What technology readiness levels enable fast transits?
   - 0.1.3 How do logistics flights (cargo pre-deployment) alter radiation exposure planning?
+    - 0.1.3.1 Which precursor assets can pre-position shielding or ISRU equipment?
+      - 0.1.3.1.1 What mass fraction of initial cargo should be dedicated to shielding infrastructure?
+      - 0.1.3.1.2 How are precursor payloads protected from radiation before crew arrival?
+    - 0.1.3.2 How does staggered arrival of habitats and crew affect shielding readiness?
+      - 0.1.3.2.1 What schedule margins ensure berms or shelters are complete before landing?
+      - 0.1.3.2.2 How is risk managed if ISRU tasks fall behind schedule?
+    - 0.1.3.3 What mass trade-offs exist between dedicated shielding payloads and multifunctional cargo?
+      - 0.1.3.3.1 How can consumables double as shielding while meeting life-support needs?
+      - 0.1.3.3.2 Which optimization tools compare dedicated vs. multifunctional shielding mass?
 - 0.2 Hazard Classification
   - 0.2.1 Which radiation sources dominate during LEO aggregation, heliocentric cruise, and Mars surface?
     - 0.2.1.1 How does Earth’s magnetosphere reduce exposure during LEO staging and departure?
@@ -58,8 +73,14 @@ This tree organizes prompts for interrogating language models about Mars mission
 - 1.1 Galactic Cosmic Rays (GCR)
   - 1.1.1 What are typical GCR dose rates during solar minimum, maximum, and transitional phases?
     - 1.1.1.1 What uncertainties and confidence intervals accompany these estimates?
+      - 1.1.1.1.1 Which physical inputs (modulation potential, heliospheric current sheet tilt) drive uncertainty?
+      - 1.1.1.1.2 How can stochastic modeling better capture solar minimum variability?
     - 1.1.1.2 How do heliocentric trajectories (opposition-class vs conjunction-class) affect exposure?
+      - 1.1.1.2.1 What durations and heliocentric distances characterize each trajectory?
+      - 1.1.1.2.2 How do trajectory choices impact shielding mass allocation?
     - 1.1.1.3 How can mission planners adjust timelines to exploit favorable solar conditions?
+      - 1.1.1.3.1 What forecasting tools project solar cycle phase years in advance?
+      - 1.1.1.3.2 How feasible is delaying launch windows for radiation optimization?
   - 1.1.2 Which heavy-ion species (Fe, C, O) dominate LET-weighted dose?
     - 1.1.2.1 Which species penetrate typical shielding thicknesses most effectively?
     - 1.1.2.2 How do fragment spectra evolve inside hydrogen-rich materials?
@@ -80,10 +101,18 @@ This tree organizes prompts for interrogating language models about Mars mission
   - 1.2.1 Which historical SPEs (August 1972, October 1989) define upper-bound design cases?
   - 1.2.2 How often do extreme SPEs occur during solar cycles, and how reliable are predictions?
     - 1.2.2.1 Which statistical models estimate SPE frequency (Poisson, over-dispersed)?
+      - 1.2.2.1.1 What historical datasets inform these models?
+      - 1.2.2.1.2 How do models treat clustering of events within active regions?
     - 1.2.2.2 How do forecasting agencies communicate probability vs. severity?
+      - 1.2.2.2.1 What confidence metrics (probability of exceedance) are included in alerts?
+      - 1.2.2.2.2 How are forecasts translated into mission decision rules?
     - 1.2.2.3 How should probabilistic risk be incorporated into shelter sizing?
+      - 1.2.2.3.1 What risk thresholds (1-in-100 year event) do agencies adopt?
+      - 1.2.2.3.2 How do margins change for multi-mission campaign planning?
   - 1.2.3 What spectral parameters (fluence, energy distribution) matter most for shielding?
     - 1.2.3.1 Which energy ranges dominate dose behind typical shielding thicknesses?
+      - 1.2.3.1.1 How does attenuation vary between 10–100 MeV and >100 MeV protons?
+      - 1.2.3.1.2 What data sources provide high-energy spectral tails?
     - 1.2.3.2 How do high-energy tails impact storm shelter design?
     - 1.2.3.3 How are spectral inputs prepared for transport simulations?
   - 1.2.4 How effective are current alert systems (NOAA SWPC, ESA SSA) in providing actionable lead time?
@@ -97,6 +126,8 @@ This tree organizes prompts for interrogating language models about Mars mission
 - 1.3 Mars Surface Environment
   - 1.3.1 How does atmospheric depth vary with altitude and affect radiation attenuation?
     - 1.3.1.1 Which landing sites offer inherent shielding advantages?
+      - 1.3.1.1.1 How do elevation maps translate to atmospheric depth?
+      - 1.3.1.1.2 What trade-offs exist between radiation protection and ISRU resource access?
     - 1.3.1.2 How do diurnal/seasonal pressure changes influence shielding needs?
     - 1.3.1.3 How does dust loading affect secondary particle production?
   - 1.3.2 What surface dose rates have been measured (MSL RAD, Mars Odyssey MARIE)?
@@ -129,6 +160,8 @@ This tree organizes prompts for interrogating language models about Mars mission
     - 2.1.3.3 How do hydration or desorption effects change content over time?
   - 2.1.4 Which emerging materials (BNNT, CNT-polyethylene) show promise at TRL 3–5?
     - 2.1.4.1 What radiation attenuation data exist for these materials?
+      - 2.1.4.1.1 Which accelerator campaigns have tested them?
+      - 2.1.4.1.2 What uncertainties remain in attenuation coefficients?
     - 2.1.4.2 Which suppliers can deliver prototypes at relevant scales?
     - 2.1.4.3 What manufacturing or cost challenges remain?
   - 2.1.5 How do flammability, outgassing, and structural properties constrain selection?
@@ -142,6 +175,8 @@ This tree organizes prompts for interrogating language models about Mars mission
     - 2.2.1.3 What operational procedures address depletion while maintaining shielding targets?
   - 2.2.2 What structural reinforcements or leak mitigation strategies secure water walls?
     - 2.2.2.1 What materials (liners, reinforcements) prevent punctures or leaks?
+      - 2.2.2.1.1 How are micro-meteoroid impacts mitigated for water bladders?
+      - 2.2.2.1.2 What inspection methods detect internal micro-leaks?
     - 2.2.2.2 How are water-wall bladders inspected and repaired in situ?
     - 2.2.2.3 How do mounting solutions cope with launch vibrations and microgravity deployment?
   - 2.2.3 How do storm shelter consumables remain accessible without degrading shielding?
@@ -164,6 +199,8 @@ This tree organizes prompts for interrogating language models about Mars mission
     - 2.3.2.3 Which binders are compatible with in-situ resource availability?
   - 2.3.3 How do regolith concretes compare to imported composites in mass and performance?
     - 2.3.3.1 What densities and compressive strengths are achievable?
+      - 2.3.3.1.1 How do different simulant compositions (JSC Mars-1A, MMS-1) affect properties?
+      - 2.3.3.1.2 What curing conditions (temperature, pressure) optimize strength?
     - 2.3.3.2 How do they perform under repeated thermal cycling?
     - 2.3.3.3 What radiation attenuation factors result from different mixes?
   - 2.3.4 What quality control methods verify berm thickness and density?
@@ -218,6 +255,8 @@ This tree organizes prompts for interrogating language models about Mars mission
 - 3.2 Habitat Shielding Layout
   - 3.2.1 How should heavy logistics and consumables be arranged around crew quarters?
     - 3.2.1.1 What load paths ensure structural stability under launch and landing loads?
+      - 3.2.1.1.1 How are loads redistributed after docking or reconfiguration?
+      - 3.2.1.1.2 What finite-element tools evaluate combined structural/radiation layouts?
     - 3.2.1.2 How does mass distribution affect vehicle attitude control and center of gravity?
     - 3.2.1.3 How can storage layouts remain modular for mission reconfiguration?
   - 3.2.2 Which spaces (sleep quarters, medical bay, flight deck) need highest priority?
@@ -239,6 +278,8 @@ This tree organizes prompts for interrogating language models about Mars mission
 - 3.3 Surface Infrastructure
   - 3.3.1 What robotic systems exist for excavation and regolith transport?
     - 3.3.1.1 What heritage do they have from lunar or terrestrial analog missions?
+      - 3.3.1.1.1 Which missions (Luna, Chang’e, Artemis analogs) provide relevant data?
+      - 3.3.1.1.2 How transferable are Earth analogs to Mars gravity and soil?
     - 3.3.1.2 How are systems shielded from dust and radiation to ensure reliability?
     - 3.3.1.3 What maintenance intervals and spare parts are required?
   - 3.3.2 How can habitats be partially buried while managing thermal loads and access?
@@ -262,6 +303,8 @@ This tree organizes prompts for interrogating language models about Mars mission
 - 4.1 Instrumentation
   - 4.1.1 Which personal dosimeters provide real-time LET spectra and alarm thresholds?
     - 4.1.1.1 What are their mass, power, and interface requirements?
+      - 4.1.1.1.1 How do these compare to EVA suit power budgets?
+      - 4.1.1.1.2 What mounting options (belt, wrist, embedded) are feasible?
     - 4.1.1.2 How do they integrate with crew health monitoring systems?
     - 4.1.1.3 How is calibration drift detected and corrected in flight?
   - 4.1.2 What neutron detectors best monitor regolith-covered habitats (TEPCs, Bonner spheres)?
@@ -295,6 +338,8 @@ This tree organizes prompts for interrogating language models about Mars mission
     - 4.2.3.3 How can LLMs help explain uncertainty to non-specialists?
   - 4.2.4 How can LLMs transform technical outputs into human-friendly advisories?
     - 4.2.4.1 What summarization prompts generate concise risk statements?
+      - 4.2.4.1.1 How can prompts be structured to include numeric thresholds?
+      - 4.2.4.1.2 What guardrails detect hallucinated data in summaries?
     - 4.2.4.2 How can models tailor messaging for crew vs mission control?
     - 4.2.4.3 How are hallucination risks mitigated in safety-critical messaging?
   - 4.2.5 What telemetry bandwidth is required for real-time radiation monitoring?
@@ -328,6 +373,8 @@ This tree organizes prompts for interrogating language models about Mars mission
   - 5.1.1 Which beamline facilities (NSRL, HIMAC, FAIR/GSI) support shielding tests?
     - 5.1.1.1 What ion species and energies are available at each facility?
     - 5.1.1.2 What sample sizes and test durations can be accommodated?
+      - 5.1.1.2.1 What fixture designs support large-area habitat panels?
+      - 5.1.1.2.2 How many runs are needed for statistical confidence?
     - 5.1.1.3 How are logistics (cost, scheduling) managed for campaigns?
   - 5.1.2 How should material attenuation results be correlated with transport simulations?
     - 5.1.2.1 What validation metrics (dose, LET, spectra) should be compared?
@@ -391,6 +438,8 @@ This tree organizes prompts for interrogating language models about Mars mission
 - 6.1 Materials Suppliers
   - 6.1.1 Which SMEs produce hydrogen-rich composites with space heritage?
     - 6.1.1.1 What certifications or flight heritage (ISS, Artemis) do they hold?
+      - 6.1.1.1.1 How recent are qualification tests and what standards were used?
+      - 6.1.1.1.2 Do certifications cover crewed-mission safety requirements?
     - 6.1.1.2 What is their annual production capacity and typical lead time?
     - 6.1.1.3 How flexible are they in customizing formulations or geometries?
   - 6.1.2 What lead times and production scales can suppliers commit to?
