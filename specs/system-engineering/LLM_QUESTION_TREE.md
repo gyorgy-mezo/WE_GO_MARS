@@ -45,29 +45,51 @@ This tree organizes prompts for interrogating language models about Mars mission
     - 0.1.3.3 What mass trade-offs exist between dedicated shielding payloads and multifunctional cargo?
       - 0.1.3.3.1 How can consumables double as shielding while meeting life-support needs?
       - 0.1.3.3.2 Which optimization tools compare dedicated vs. multifunctional shielding mass?
-- 0.2 Hazard Classification
-  - 0.2.1 Which radiation sources dominate during LEO aggregation, heliocentric cruise, and Mars surface?
-    - 0.2.1.1 How does Earth’s magnetosphere reduce exposure during LEO staging and departure?
-    - 0.2.1.2 What roles do trapped radiation belts play for departure and arrival trajectories?
-    - 0.2.1.3 How does solar cycle modulation alter relative contributions?
-  - 0.2.2 What non-radiation hazards interact with shielding decisions (e.g., MMOD, thermal constraints)?
-    - 0.2.2.1 How can shielding materials double as MMOD or debris protection?
-    - 0.2.2.2 What thermal properties (conductivity, emissivity) must shielding layers satisfy?
-    - 0.2.2.3 How do structural loads (launch, landing, pressurization) limit shielding placement?
-  - 0.2.3 How do mission abort or contingency profiles alter exposure scenarios?
-    - 0.2.3.1 What is the radiation impact of safe-harbor or free-return trajectories?
-    - 0.2.3.2 How do shelter durations and exposure budgets change under contingency timelines?
-    - 0.2.3.3 How can LLMs assist in evaluating exposure for alternative mission plans?
-- 0.3 Crew Exposure Limits
-  - 0.3.1 What are agency-specific dose limits (NASA, ESA, CNSA, Roscosmos, JAXA)?
-  - 0.3.2 How do gender, age, and career considerations influence permissible dose?
-    - 0.3.2.1 What biological models underpin differentiated limits?
-    - 0.3.2.2 How are per-astronaut cumulative doses tracked across missions?
-    - 0.3.2.3 How do agencies manage crew rotations to control career exposure?
-  - 0.3.3 What legislative or policy changes are anticipated for exploration-class limits?
-    - 0.3.3.1 How are NASA’s proposed rolling career limits evolving?
-    - 0.3.3.2 What international harmonization efforts exist for deep-space standards?
-    - 0.3.3.3 How might future biomedical findings prompt limit revisions?
+  - 0.2 Hazard Classification
+    - 0.2.1 Which radiation sources dominate during LEO aggregation, heliocentric cruise, and Mars surface?
+      - 0.2.1.1 How does Earth’s magnetosphere reduce exposure during LEO staging and departure?
+        - 0.2.1.1.1 What orbital inclinations maximize shielding from the geomagnetic field?
+        - 0.2.1.1.2 How rapidly does protection fall off beyond ~1000 km altitude?
+      - 0.2.1.2 What roles do trapped radiation belts play for departure and arrival trajectories?
+        - 0.2.1.2.1 What transfer trajectories minimize time in the inner/outer belts?
+        - 0.2.1.2.2 How do belt crossings differ for Mars direct vs lunar staging profiles?
+      - 0.2.1.3 How does solar cycle modulation alter relative contributions?
+        - 0.2.1.3.1 What is the expected range of GCR flux variability between solar minimum and maximum?
+        - 0.2.1.3.2 How are SPE likelihood and severity modulated by sunspot activity?
+    - 0.2.2 What non-radiation hazards interact with shielding decisions (e.g., MMOD, thermal constraints)?
+      - 0.2.2.1 How can shielding materials double as MMOD or debris protection?
+        - 0.2.2.1.1 What are the mass penalties of dual-use MMOD/radiation shields?
+        - 0.2.2.1.2 Which multi-layer insulation designs incorporate radiation absorbers?
+      - 0.2.2.2 What thermal properties (conductivity, emissivity) must shielding layers satisfy?
+        - 0.2.2.2.1 How do water walls and hydrogen-rich polymers impact spacecraft thermal balance?
+        - 0.2.2.2.2 What coatings or radiators mitigate thermal penalties of heavy shielding?
+      - 0.2.2.3 How do structural loads (launch, landing, pressurization) limit shielding placement?
+        - 0.2.2.3.1 What reinforcement is required to mount dense shielding near airlocks or windows?
+        - 0.2.2.3.2 How do pressurization cycles stress modular shielding panels?
+    - 0.2.3 How do mission abort or contingency profiles alter exposure scenarios?
+      - 0.2.3.1 What is the radiation impact of safe-harbor or free-return trajectories?
+        - 0.2.3.1.1 How much does transit time increase under free-return options?
+        - 0.2.3.1.2 How do altered Sun-relative angles affect SPE risk during aborts?
+      - 0.2.3.2 How do shelter durations and exposure budgets change under contingency timelines?
+        - 0.2.3.2.1 How much additional water/consumables must be reserved for longest-case shelters?
+        - 0.2.3.2.2 What mission rules govern reallocation of science time to shielding tasks?
+      - 0.2.3.3 How can LLMs assist in evaluating exposure for alternative mission plans?
+        - 0.2.3.3.1 What mission data (trajectory files, shielding inventories) should be ingested?
+        - 0.2.3.3.2 How can models present exposure trade-offs in dashboards for rapid decision-making?
+  - 0.3 Crew Exposure Limits
+    - 0.3.1 What are agency-specific dose limits (NASA, ESA, CNSA, Roscosmos, JAXA)?
+      - 0.3.1.1 What mission-specific limits supplement career caps?
+      - 0.3.1.2 How do agencies define acceptable risk (e.g., %REID at 95% CL)?
+    - 0.3.2 How do gender, age, and career considerations influence permissible dose?
+      - 0.3.2.1 What biological models underpin differentiated limits?
+      - 0.3.2.2 How are per-astronaut cumulative doses tracked across missions?
+      - 0.3.2.3 How do agencies manage crew rotations to control career exposure?
+    - 0.3.3 What legislative or policy changes are anticipated for exploration-class limits?
+      - 0.3.3.1 How are NASA’s proposed rolling career limits evolving?
+      - 0.3.3.2 What international harmonization efforts exist for deep-space standards?
+      - 0.3.3.3 How might future biomedical findings prompt limit revisions?
+        - 0.3.3.3.1 How could updated cancer risk models shift allowable lifetime doses?
+        - 0.3.3.3.2 What precedents exist for mid-program revisions to crew exposure policy?
 
 ## 1. Radiation Environment Characterization
 - 1.1 Galactic Cosmic Rays (GCR)
@@ -117,12 +139,24 @@ This tree organizes prompts for interrogating language models about Mars mission
     - 1.2.3.3 How are spectral inputs prepared for transport simulations?
   - 1.2.4 How effective are current alert systems (NOAA SWPC, ESA SSA) in providing actionable lead time?
     - 1.2.4.1 What data sources (GOES, SOHO, STEREO) underpin alerts?
+      - 1.2.4.1.1 How often are sensors offline or degraded, and what redundancy exists?
+      - 1.2.4.1.2 What latency occurs between detection and alert dissemination?
     - 1.2.4.2 How often do alerts false-alarm or miss events?
+      - 1.2.4.2.1 What statistical performance (precision/recall) do agencies report?
+      - 1.2.4.2.2 How do mission operations handle false positives to avoid fatigue?
     - 1.2.4.3 How can onboard sensors complement ground-based monitoring?
+      - 1.2.4.3.1 What onboard instrumentation (HERA, RAD) can trigger autonomous alerts?
+      - 1.2.4.3.2 How are onboard and ground alerts reconciled if they disagree?
   - 1.2.5 What mitigation strategies exist when warning time is <30 minutes?
     - 1.2.5.1 How quickly can crew reach storm shelter after an alert?
+      - 1.2.5.1.1 What steps (suit doffing, hatch sealing) dominate entry time?
+      - 1.2.5.1.2 How are EVA crews prioritized for rapid ingress?
     - 1.2.5.2 What automated systems can pre-stage shelter resources?
+      - 1.2.5.2.1 How can robotics reposition water or shielding panels autonomously?
+      - 1.2.5.2.2 What systems automatically transition life support to shelter mode?
     - 1.2.5.3 What fallback options exist if shelter entry is delayed?
+      - 1.2.5.3.1 How can local shielding (portable panels) provide interim protection?
+      - 1.2.5.3.2 What medical interventions mitigate higher-than-planned exposure?
 - 1.3 Mars Surface Environment
   - 1.3.1 How does atmospheric depth vary with altitude and affect radiation attenuation?
     - 1.3.1.1 Which landing sites offer inherent shielding advantages?
@@ -132,6 +166,8 @@ This tree organizes prompts for interrogating language models about Mars mission
     - 1.3.1.3 How does dust loading affect secondary particle production?
   - 1.3.2 What surface dose rates have been measured (MSL RAD, Mars Odyssey MARIE)?
     - 1.3.2.1 How do these datasets vary with solar cycle and atmospheric conditions?
+      - 1.3.2.1.1 What seasonal trends were observed by RAD during dusty vs clear periods?
+      - 1.3.2.1.2 How do measurements differ between cruised and surface phases?
     - 1.3.2.2 What calibration challenges exist for RAD and MARIE instruments?
     - 1.3.2.3 How can future missions refine surface dose estimates?
   - 1.3.3 How do dust storms or seasonal CO₂ deposition influence radiation environment?
@@ -213,6 +249,10 @@ This tree organizes prompts for interrogating language models about Mars mission
     - 2.3.5.3 How do mission planners balance power generation with shielding construction?
 - 2.4 Active/Hybrid Shielding
   - 2.4.1 What mass, power, and cryogenic requirements accompany superconducting magnets?
+    - 2.4.1.1 Which superconducting materials (MgB₂, YBCO) are most promising?
+    - 2.4.1.2 How would cryocooler failures be mitigated?
+    - 2.4.1.3 Can active shielding be confined to local regions (e.g., storm shelter only)?
+    - 2.4.1.4 What structural supports and magnetic shielding are required to protect crew?
   - 2.4.2 How do hybrid magnetic + passive systems perform in simulations?
     - 2.4.2.1 What combined attenuation factors are predicted?
     - 2.4.2.2 How sensitive are results to coil placement and field strength?
@@ -229,6 +269,7 @@ This tree organizes prompts for interrogating language models about Mars mission
     - 2.4.5.1 How do quench events in superconducting coils impact crew safety?
     - 2.4.5.2 What redundancy or fail-safe mechanisms are required?
     - 2.4.5.3 How are maintenance and inspection handled for active components?
+    - 2.4.5.4 What certification or safety review processes govern active-field hardware?
 
 ## 3. Storm Shelter and Habitat Design
 - 3.1 Storm Shelter Sizing
