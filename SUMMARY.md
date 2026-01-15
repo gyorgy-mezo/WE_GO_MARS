@@ -7,3 +7,4 @@ The repository-wide summary now lives in `README.md` at the project root. This f
 - Full documentation map: [`README.md`](README.md)
 - Supplier landscape (materials, tools, software providers): [`specs/radiation-shielding/SUPPLIERS.md`](specs/radiation-shielding/SUPPLIERS.md)
 - LLM knowledge-gathering tree: [`specs/system-engineering/LLM_TREE_OVERVIEW.md`](specs/system-engineering/LLM_TREE_OVERVIEW.md)
+- Advanced shielding architectures: [`specs/radiation-shielding/ADVANCED_SHIELDING_README.md`](specs/radiation-shielding/ADVANCED_SHIELDING_README.md)

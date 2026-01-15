@@ -26,6 +26,7 @@ This repository assembles research, planning guidance, and program surveys focus
   - ISRO programs: [`specs/radiation-shielding/ISRO_PROGRAMS.md`](specs/radiation-shielding/ISRO_PROGRAMS.md)
 - **Commercial Focus** – SpaceX Mars architecture and shielding approach: [`specs/radiation-shielding/SPACEX_PROGRAMS.md`](specs/radiation-shielding/SPACEX_PROGRAMS.md)
 - **Supplier Landscape** – SMEs and specialist suppliers for shielding materials, tools, and software: [`specs/radiation-shielding/SUPPLIERS.md`](specs/radiation-shielding/SUPPLIERS.md)
+- **Advanced Shielding Architectures** – Technical deep dive on materials, multifunctional mass, ISRU, and active concepts: [`specs/radiation-shielding/ADVANCED_SHIELDING_README.md`](specs/radiation-shielding/ADVANCED_SHIELDING_README.md)
 
 ## Supplier Landscape
 
@@ -78,6 +79,7 @@ The supplier compendium summarizes agile companies supplying hydrogen-rich compo
 | Global Agencies | [`CNSA`](specs/radiation-shielding/CNSA_PROGRAMS.md) · [`Roscosmos`](specs/radiation-shielding/ROSCOSMOS_PROGRAMS.md) · [`JAXA`](specs/radiation-shielding/JAXA_PROGRAMS.md) · [`CSA`](specs/radiation-shielding/CSA_PROGRAMS.md) · [`ISRO`](specs/radiation-shielding/ISRO_PROGRAMS.md) | Strategic snapshots |
 | Commercial | [`specs/radiation-shielding/SPACEX_PROGRAMS.md`](specs/radiation-shielding/SPACEX_PROGRAMS.md) | SpaceX-specific analysis |
 | Suppliers | [`specs/radiation-shielding/SUPPLIERS.md`](specs/radiation-shielding/SUPPLIERS.md) | Materials, tools & software providers |
+| Advanced Architectures | [`specs/radiation-shielding/ADVANCED_SHIELDING_README.md`](specs/radiation-shielding/ADVANCED_SHIELDING_README.md) | Materials & active shielding deep dive |
 | Challenges | [`specs/radiation-shielding/GRAND_CHALLENGES.md`](specs/radiation-shielding/GRAND_CHALLENGES.md) | Cross-cutting obstacles |
 | AI Evaluation | [`specs/radiation-shielding/AI_BENCHMARK.md`](specs/radiation-shielding/AI_BENCHMARK.md) | Benchmark concept |
 
