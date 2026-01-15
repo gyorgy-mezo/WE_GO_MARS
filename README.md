@@ -25,6 +25,7 @@ This repository assembles research, planning guidance, and program surveys focus
   - CSA programs: [`specs/radiation-shielding/CSA_PROGRAMS.md`](specs/radiation-shielding/CSA_PROGRAMS.md)
   - ISRO programs: [`specs/radiation-shielding/ISRO_PROGRAMS.md`](specs/radiation-shielding/ISRO_PROGRAMS.md)
 - **Commercial Focus** – SpaceX Mars architecture and shielding approach: [`specs/radiation-shielding/SPACEX_PROGRAMS.md`](specs/radiation-shielding/SPACEX_PROGRAMS.md)
+- **Supplier Landscape** – SMEs and specialist suppliers for shielding materials, tools, and software: [`specs/radiation-shielding/SUPPLIERS.md`](specs/radiation-shielding/SUPPLIERS.md)
 
 ## Tools and Evaluation
 
@@ -71,6 +72,7 @@ This repository assembles research, planning guidance, and program surveys focus
 | ESA Tenders | [`specs/radiation-shielding/ESA_TENDERS.md`](specs/radiation-shielding/ESA_TENDERS.md) | Competitive opportunities |
 | Global Agencies | [`CNSA`](specs/radiation-shielding/CNSA_PROGRAMS.md) · [`Roscosmos`](specs/radiation-shielding/ROSCOSMOS_PROGRAMS.md) · [`JAXA`](specs/radiation-shielding/JAXA_PROGRAMS.md) · [`CSA`](specs/radiation-shielding/CSA_PROGRAMS.md) · [`ISRO`](specs/radiation-shielding/ISRO_PROGRAMS.md) | Strategic snapshots |
 | Commercial | [`specs/radiation-shielding/SPACEX_PROGRAMS.md`](specs/radiation-shielding/SPACEX_PROGRAMS.md) | SpaceX-specific analysis |
+| Suppliers | [`specs/radiation-shielding/SUPPLIERS.md`](specs/radiation-shielding/SUPPLIERS.md) | Materials, tools & software providers |
 | Challenges | [`specs/radiation-shielding/GRAND_CHALLENGES.md`](specs/radiation-shielding/GRAND_CHALLENGES.md) | Cross-cutting obstacles |
 | AI Evaluation | [`specs/radiation-shielding/AI_BENCHMARK.md`](specs/radiation-shielding/AI_BENCHMARK.md) | Benchmark concept |
 
