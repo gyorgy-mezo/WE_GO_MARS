@@ -6,6 +6,8 @@
 
 ## 1. Mission Context and Scope
 
+Detailed expansion: [`Mission Context Specification`](system-spec/MISSION_CONTEXT.md)
+
 ### 1.1 Mission Profile
 - **Architecture:** Crewed Mars exploration mission (transit → surface stay → return). Baseline timeline: 6–9 month outbound transit, 500-day surface stay, 6–9 month return.
 - **Vehicles:** Transit habitat/Starship-class vehicle, Mars surface habitat, EVA suits, logistics assets (rovers, shelters).
@@ -26,6 +28,8 @@
 
 ## 2. System Requirements
 
+Detailed expansion: [`Requirements Specification`](system-spec/REQUIREMENTS.md)
+
 ### 2.1 Top-Level Requirements
 1. **Crew Dose Compliance:** Mission cumulative effective dose per crew member < 600 mSv (NASA limit) or agency-approved risk thresholds (≤3% REID at 95% confidence).
 2. **Storm Shelter Capability:** Provide shelter with ≥15 g·cm⁻² hydrogen-equivalent shielding around crew to keep worst-case SPE dose < 50 mSv.
@@ -42,6 +46,8 @@
 ---
 
 ## 3. System Architecture
+
+Detailed expansion: [`System Architecture Specification`](system-spec/ARCHITECTURE.md)
 
 ### 3.1 Elements
 | Element | Shielding Functions |
@@ -61,6 +67,8 @@
 ---
 
 ## 4. Design Approach
+
+Detailed expansion: [`Design Approach Specification`](system-spec/DESIGN_APPROACH.md)
 
 ### 4.1 Passive Shielding Design
 - **Materials:** Prioritize hydrogen-rich materials (water, polyethylene, boron nitride composites). Evaluate multi-functional structures (water walls, food storage).
@@ -86,6 +94,8 @@
 
 ## 5. Analysis and Modeling
 
+Detailed expansion: [`Analysis and Modeling Specification`](system-spec/ANALYSIS_MODELING.md)
+
 ### 5.1 Tools
 - Primary: HZETRN/OCT, OLTARIS (NASA), PHITS (JAXA), GRAS (ESA), GEANT4, FLUKA.
 - Validate with accelerator data (NSRL, HIMAC, FAIR/GSI) and flight measurements (RAD, Orion EM-1).
@@ -100,6 +110,8 @@
 ---
 
 ## 6. Verification & Validation
+
+Detailed expansion: [`Verification and Validation Specification`](system-spec/VERIFICATION_VALIDATION.md)
 
 ### 6.1 Verification Matrix (Simplified)
 | Requirement | Method | Notes |
@@ -119,6 +131,8 @@
 
 ## 7. Risk Management
 
+Detailed expansion: [`Risk Management Specification`](system-spec/RISK_MANAGEMENT.md)
+
 ### 7.1 Key Risks
 | Risk | Description | Mitigation |
 | --- | --- | --- |
@@ -137,6 +151,8 @@
 
 ## 8. Programmatic Considerations
 
+Detailed expansion: [`Programmatic Specification`](system-spec/PROGRAMMATICS.md)
+
 - **Lifecycle Alignment:** Follow agency lifecycle (NASA Phase A–D or ESA Phase 0–D); embed radiation reviews at SRR, SDR, PDR, CDR, ORR/FRR.
 - **Work Breakdown Structure:** Partition shielding efforts across structures, ECLSS, mission operations, and medical teams.
 - **International Coordination:** Harmonize requirements with partner agencies (NASA/ESA/CNSA/JAXA/CSA) via joint working groups.
@@ -146,6 +162,8 @@
 ---
 
 ## 9. Operations and Sustainment
+
+Detailed expansion: [`Operations and Sustainment Specification`](system-spec/OPERATIONS_SUSTAINMENT.md)
 
 - **Mission Operations:** Integrate radiation alert protocol into Mission Rules; ensure ground control and crew training cover SPE drills, dosimetry management, and emergency responses.
 - **Data Management:** Store dosimetry data in centralized database for real-time monitoring and post-mission analysis.

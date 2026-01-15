@@ -36,7 +36,17 @@ This repository assembles research, planning guidance, and program surveys focus
 
 ## System Engineering Reference
 
-- **Radiation Shielding System Specification** – End-to-end requirements, architecture, and verification: [`specs/radiation-shielding/SYSTEM_SPEC.md`](specs/radiation-shielding/SYSTEM_SPEC.md)
+- **Radiation Shielding System Specification** – End-to-end requirements, architecture, and verification with links to sub-specs: [`specs/radiation-shielding/SYSTEM_SPEC.md`](specs/radiation-shielding/SYSTEM_SPEC.md)
+- **Subsystem Specifications:**
+  - Mission Context: [`system-spec/MISSION_CONTEXT.md`](specs/radiation-shielding/system-spec/MISSION_CONTEXT.md)
+  - Requirements: [`system-spec/REQUIREMENTS.md`](specs/radiation-shielding/system-spec/REQUIREMENTS.md)
+  - Architecture: [`system-spec/ARCHITECTURE.md`](specs/radiation-shielding/system-spec/ARCHITECTURE.md)
+  - Design Approach: [`system-spec/DESIGN_APPROACH.md`](specs/radiation-shielding/system-spec/DESIGN_APPROACH.md)
+  - Analysis & Modeling: [`system-spec/ANALYSIS_MODELING.md`](specs/radiation-shielding/system-spec/ANALYSIS_MODELING.md)
+  - Verification & Validation: [`system-spec/VERIFICATION_VALIDATION.md`](specs/radiation-shielding/system-spec/VERIFICATION_VALIDATION.md)
+  - Risk Management: [`system-spec/RISK_MANAGEMENT.md`](specs/radiation-shielding/system-spec/RISK_MANAGEMENT.md)
+  - Programmatics: [`system-spec/PROGRAMMATICS.md`](specs/radiation-shielding/system-spec/PROGRAMMATICS.md)
+  - Operations & Sustainment: [`system-spec/OPERATIONS_SUSTAINMENT.md`](specs/radiation-shielding/system-spec/OPERATIONS_SUSTAINMENT.md)
 
 ## How to Use This Repository
 
