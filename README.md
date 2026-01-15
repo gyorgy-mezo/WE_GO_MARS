@@ -27,6 +27,10 @@ This repository assembles research, planning guidance, and program surveys focus
 - **Commercial Focus** – SpaceX Mars architecture and shielding approach: [`specs/radiation-shielding/SPACEX_PROGRAMS.md`](specs/radiation-shielding/SPACEX_PROGRAMS.md)
 - **Supplier Landscape** – SMEs and specialist suppliers for shielding materials, tools, and software: [`specs/radiation-shielding/SUPPLIERS.md`](specs/radiation-shielding/SUPPLIERS.md)
 
+## Supplier Landscape
+
+The supplier compendium summarizes agile companies supplying hydrogen-rich composites, BNNT materials, shielding textiles, dosimetry hardware, and radiation analytics. Entries are organized by North America, Europe, and Asia-Pacific to match international procurement channels and highlight SMEs with heritage in NASA, ESA, CSA, JAXA, and emerging CNSA/ISRO programs. Consult [`specs/radiation-shielding/SUPPLIERS.md`](specs/radiation-shielding/SUPPLIERS.md) when planning trade studies, sourcing prototypes, or assembling proposal teams.
+
 ## Tools and Evaluation
 
 - **AI Benchmark Concept** – Radiation Shielding Reasoning Benchmark (RSRB) structure and sample items: [`specs/radiation-shielding/AI_BENCHMARK.md`](specs/radiation-shielding/AI_BENCHMARK.md)
