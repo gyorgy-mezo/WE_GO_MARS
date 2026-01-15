@@ -1,6 +1,6 @@
 # Radiation Shielding for Crewed Mars Missions
 
-This literature-based overview summarizes peer-reviewed and agency research on radiation hazards and protection strategies for human missions to Mars. It complements the high-level specification in `specs/radiation-shielding/README.md` with deeper scientific context and references. Dedicated guides cover mission dosimetry (`specs/dosimetry/README.md`), NASA planning workflow (`specs/radiation-shielding/PLANNING.md`), and ESA planning workflow (`specs/radiation-shielding/ESA_PLANNING.md`).
+This literature-based overview summarizes peer-reviewed and agency research on radiation hazards and protection strategies for human missions to Mars. It complements the high-level specification in `specs/radiation-shielding/README.md` with deeper scientific context and references. Dedicated guides cover mission dosimetry (`specs/dosimetry/README.md`), NASA planning workflow (`specs/radiation-shielding/PLANNING.md`), ESA planning workflow (`specs/radiation-shielding/ESA_PLANNING.md`), and ESA tender landscape (`specs/radiation-shielding/ESA_TENDERS.md`).
 
 ## Mission Dose Limits and Risk Framework
 
