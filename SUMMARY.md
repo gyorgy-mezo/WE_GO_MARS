@@ -48,6 +48,10 @@ This repository assembles research, planning guidance, and program surveys focus
   - Programmatics: [`system-spec/PROGRAMMATICS.md`](specs/radiation-shielding/system-spec/PROGRAMMATICS.md)
   - Operations & Sustainment: [`system-spec/OPERATIONS_SUSTAINMENT.md`](specs/radiation-shielding/system-spec/OPERATIONS_SUSTAINMENT.md)
 
+## Cross-Disciplinary Question Mapping
+
+- **Mars Mission Systems Engineering Question Map** – Imported question tree with analysis of responsible tasks and documentation coverage: [`specs/system-engineering/README.md`](specs/system-engineering/README.md)
+
 ## How to Use This Repository
 
 1. **Plan mission concepts** by starting with the specification and planning playbooks, then layering agency-specific requirements.
