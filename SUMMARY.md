@@ -30,6 +30,10 @@ This repository assembles research, planning guidance, and program surveys focus
 
 - **AI Benchmark Concept** – Radiation Shielding Reasoning Benchmark (RSRB) structure and sample items: [`specs/radiation-shielding/AI_BENCHMARK.md`](specs/radiation-shielding/AI_BENCHMARK.md)
 
+## Historical Lessons
+
+- **Radiation Events in Mars Missions** – Case studies of radiation-induced anomalies and measurements: [`specs/radiation-shielding/MARS_MISSION_LESSONS.md`](specs/radiation-shielding/MARS_MISSION_LESSONS.md)
+
 ## How to Use This Repository
 
 1. **Plan mission concepts** by starting with the specification and planning playbooks, then layering agency-specific requirements.
