@@ -2,6 +2,23 @@
 
 This tree organizes prompts for interrogating language models about Mars mission radiation shielding. Upper levels target broad reasoning suitable for large models; leaves are phrased as focused questions that small or domain-tuned models can answer reliably. Use the hierarchy to scaffold research sessions or automated knowledge harvesting pipelines.
 
+## Tagging Scheme
+- **Priority (Px):** P0 = foundational and mission-critical; P1 = high value; P2 = medium; P3 = supplementary.
+- **Model Size (Mx):** ML = large model (≥30B) recommended; MM = mid-size (10–30B); MS = small model (≤10B) viable.
+- Unless noted otherwise, deepest leaf nodes are tagged `[P1|MS]` by default—suitable for small models to retrieve specific facts.
+- The tables below highlight priority focus areas for each branch; adapt tags as knowledge gaps emerge.
+
+### Priority Snapshot
+| Section | Key Topics | Suggested Tag |
+| --- | --- | --- |
+| 0 Mission Context | Exposure limits, contingency impact | `[P0|ML]` |
+| 1 Environment | GCR spectra, SPE modeling, surface data | `[P0|ML]` for 1.x roots |
+| 2 Materials & Structures | Hydrogen-rich materials, regolith ISRU | `[P0|MM]` for 2.1–2.3 roots |
+| 3 Shelter & Habitat | Storm shelter sizing, berm maintenance | `[P0|MM]` |
+| 4 Dosimetry & Alerts | Instrumentation, alert logic | `[P0|MM]` |
+| 5 Verification & Risk | Beamline tests, risk comms | `[P1|MM]` |
+| 6 Suppliers & Policy | Market intelligence, procurement tracking | `[P2|MS]` |
+
 ## 0. Mission-Level Framing
 - 0.1 Mission Phases and Timeline
   - 0.1.1 How long is each mission phase (assembly, outbound transit, surface stay, return)?
