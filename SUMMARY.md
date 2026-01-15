@@ -34,6 +34,10 @@ This repository assembles research, planning guidance, and program surveys focus
 
 - **Radiation Events in Mars Missions** – Case studies of radiation-induced anomalies and measurements: [`specs/radiation-shielding/MARS_MISSION_LESSONS.md`](specs/radiation-shielding/MARS_MISSION_LESSONS.md)
 
+## System Engineering Reference
+
+- **Radiation Shielding System Specification** – End-to-end requirements, architecture, and verification: [`specs/radiation-shielding/SYSTEM_SPEC.md`](specs/radiation-shielding/SYSTEM_SPEC.md)
+
 ## How to Use This Repository
 
 1. **Plan mission concepts** by starting with the specification and planning playbooks, then layering agency-specific requirements.
