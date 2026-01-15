@@ -3,13 +3,13 @@
 This overview maps the modular prompt trees that support automated or guided research into Mars mission radiation shielding. Use it as the entry point when orchestrating large-model explorations or fine-grained fact gathering.
 
 ## Modules
-- **0. Mission Context & Exposure Limits**: [`LLM_TREE_0_MISSION.md`](LLM_TREE_0_MISSION.md)
-- **1. Radiation Environment Characterization**: [`LLM_TREE_1_ENVIRONMENT.md`](LLM_TREE_1_ENVIRONMENT.md)
-- **2. Shielding Materials & Structures**: [`LLM_TREE_2_MATERIALS.md`](LLM_TREE_2_MATERIALS.md)
-- **3. Storm Shelter & Habitat Design**: [`LLM_TREE_3_SHELTER.md`](LLM_TREE_3_SHELTER.md)
-- **4. Dosimetry, Monitoring & Forecasting**: [`LLM_TREE_4_DOSIMETRY.md`](LLM_TREE_4_DOSIMETRY.md)
-- **5. Verification, Validation & Risk**: [`LLM_TREE_5_VERIFICATION.md`](LLM_TREE_5_VERIFICATION.md)
-- **6. Suppliers, Software & Policy**: [`LLM_TREE_6_SUPPLIERS.md`](LLM_TREE_6_SUPPLIERS.md)
+- **0. Mission Context & Exposure Limits**: [`LLM_TREE_0_MISSION.md`](LLM_TREE_0_MISSION.md) · Insights: [`LLM_TREE_INSIGHTS.md#0-mission-context--exposure-limits`](LLM_TREE_INSIGHTS.md#0-mission-context--exposure-limits)
+- **1. Radiation Environment Characterization**: [`LLM_TREE_1_ENVIRONMENT.md`](LLM_TREE_1_ENVIRONMENT.md) · Insights: [`LLM_TREE_INSIGHTS.md#1-radiation-environment-characterization`](LLM_TREE_INSIGHTS.md#1-radiation-environment-characterization)
+- **2. Shielding Materials & Structures**: [`LLM_TREE_2_MATERIALS.md`](LLM_TREE_2_MATERIALS.md) · Insights: [`LLM_TREE_INSIGHTS.md#2-shielding-materials--structures`](LLM_TREE_INSIGHTS.md#2-shielding-materials--structures)
+- **3. Storm Shelter & Habitat Design**: [`LLM_TREE_3_SHELTER.md`](LLM_TREE_3_SHELTER.md) · Insights: [`LLM_TREE_INSIGHTS.md#3-storm-shelter--habitat-design`](LLM_TREE_INSIGHTS.md#3-storm-shelter--habitat-design)
+- **4. Dosimetry, Monitoring & Forecasting**: [`LLM_TREE_4_DOSIMETRY.md`](LLM_TREE_4_DOSIMETRY.md) · Insights: [`LLM_TREE_INSIGHTS.md#4-dosimetry-monitoring--forecasting`](LLM_TREE_INSIGHTS.md#4-dosimetry-monitoring--forecasting)
+- **5. Verification, Validation & Risk**: [`LLM_TREE_5_VERIFICATION.md`](LLM_TREE_5_VERIFICATION.md) · Insights: [`LLM_TREE_INSIGHTS.md#5-verification-validation--risk`](LLM_TREE_INSIGHTS.md#5-verification-validation--risk)
+- **6. Suppliers, Software & Policy**: [`LLM_TREE_6_SUPPLIERS.md`](LLM_TREE_6_SUPPLIERS.md) · Insights: [`LLM_TREE_INSIGHTS.md#6-suppliers-software--policy`](LLM_TREE_INSIGHTS.md#6-suppliers-software--policy)
 
 ## Tagging Scheme
 - **Priority (Px)**: P0 = foundational; P1 = high value; P2 = medium; P3 = supplementary.
