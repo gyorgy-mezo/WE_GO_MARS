@@ -56,6 +56,7 @@ The supplier compendium summarizes agile companies supplying hydrogen-rich compo
 ## Cross-Disciplinary Question Mapping
 
 - **Mars Mission Systems Engineering Question Map** – Imported question tree with analysis of responsible tasks and documentation coverage: [`specs/system-engineering/README.md`](specs/system-engineering/README.md)
+- **LLM Knowledge-Gathering Tree** – Prompt hierarchy for harvesting shielding insights with large and small models: [`specs/system-engineering/LLM_QUESTION_TREE.md`](specs/system-engineering/LLM_QUESTION_TREE.md)
 
 ## How to Use This Repository
 
