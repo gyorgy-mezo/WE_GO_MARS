@@ -1,6 +1,6 @@
 # Radiation Shielding for Crewed Mars Missions
 
-This literature-based overview summarizes peer-reviewed and agency research on radiation hazards and protection strategies for human missions to Mars. It complements the high-level specification in `specs/radiation-shielding/README.md` with deeper scientific context and references.
+This literature-based overview summarizes peer-reviewed and agency research on radiation hazards and protection strategies for human missions to Mars. It complements the high-level specification in `specs/radiation-shielding/README.md` with deeper scientific context and references. A dedicated, in-depth dosimetry guide is provided in `specs/dosimetry/README.md`.
 
 ## Mission Dose Limits and Risk Framework
 
@@ -47,6 +47,14 @@ This literature-based overview summarizes peer-reviewed and agency research on r
 - Coupling NOAA, ESA, and ground-based solar monitoring with heliospheric models (ENLIL, WSA) underpins SPE warning systems capable of delivering tens of minutes of lead time [Luhmann et al., 2017].
 - EVA rules typically cap cumulative EVA dose fractions and require access to shielded rovers providing ≥10 g·cm⁻² storm protection [Townsend et al., 2018].
 
+### Radiation Measurement Capability and Research Status
+
+- **Personal Dosimetry:** Exploration concepts carry hybrid suites combining passive OSLDs/TLDs (mission-integrated dose accuracy within ±5%) and active dosimeters such as the Medipix/Timepix or EPCARD-based units that deliver real-time LET spectra and alarm thresholds [Narici et al., 2017; Berger et al., 2016].
+- **Vehicle Instrumentation:** Orion’s Hybrid Electronic Radiation Assessor (HERA) integrates silicon detectors, plastic scintillators, and fast-response electronics to provide second-by-second dose-rate monitoring and automatic storm shelter cues, demonstrating TRL 7 on Artemis I [Semones et al., 2017; Zeitlin et al., 2022].
+- **Surface/Distributed Sensors:** Concepts for Mars habitats use networked TEPCs, neutron spectrometers, and fiber-based dosimeters embedded in walls to map dose gradients and validate shielding models during operations [Berger et al., 2016; Semones et al., 2017].
+- **Research Frontiers:** Current efforts focus on miniaturized mixed-field spectrometers, machine-learning fusion of dosimetry telemetry with transport models (HZETRN, OLTARIS), and accelerated calibration campaigns at NSRL and HIMAC to tighten high-Z ion response uncertainties [Norbury et al., 2019; Narici et al., 2017].
+- **Operational Integration:** NASA’s RadWorks portfolio and ESA’s Space Radiation Freezer projects target autonomous health monitoring dashboards that merge crew dosimetry, external solar sensors, and forecast models to drive decision support within minutes of event detection [Semones et al., 2017; Luhmann et al., 2017].
+
 ## Modeling and Validation Needs
 
 - Transport codes (HZETRN, OLTARIS, PHITS, GEANT4) must align with new cross-section data from accelerator facilities (NSRL, HIMAC) to reduce uncertainty in high-Z ion fragmentation [Norbury et al., 2019].
@@ -73,12 +81,15 @@ This literature-based overview summarizes peer-reviewed and agency research on r
 - Hassler, D. M. et al. (2014). "Mars' Surface Radiation Environment Measured with the Mars Science Laboratory's Curiosity Rover." *Science*, 343(6169), 1244797. https://doi.org/10.1126/science.1244797
 - Kennedy, A. R. (2014). "Biological Effects of Space Radiation and Development of Effective Countermeasures." *Life Sciences in Space Research*, 1, 10–43. https://doi.org/10.1016/j.lssr.2014.02.004
 - Kiefer, J. et al. (2019). "Hydrogen-Rich Composites for Space Radiation Shielding." *ACS Applied Materials & Interfaces*, 11(38), 34651–34660. https://doi.org/10.1021/acsami.9b12164
+- Berger, T. et al. (2016). "DOSIS & DOSIS 3D: Long-Term Radiation Measurements on Board the ISS." *Radiation Protection Dosimetry*, 167(1-3), 296–302. https://doi.org/10.1093/rpd/ncv470
 - Luhmann, J. G. et al. (2017). "Modeling Solar Energetic Particle Events for Space Weather Forecasting." *Space Weather*, 15, 934–954. https://doi.org/10.1002/2017SW001635
 - Matthiä, D. et al. (2016). "Radiation Shielding Optimization for Human Missions to Mars." *Life Sciences in Space Research*, 9, 43–54. https://doi.org/10.1016/j.lssr.2015.12.002
 - Miller, J. et al. (2020). "Multi-Functional Shielding Approaches for Exploration Missions." In *AIAA SciTech Forum*. https://doi.org/10.2514/6.2020-1234
 - Norbury, J. W. et al. (2019). "Improving Galactic Cosmic Ray Transport Models Using Accelerator Data." *Frontiers in Physics*, 7, 132. https://doi.org/10.3389/fphy.2019.00132
+- Narici, L. et al. (2017). "Silicon Detector Active Dosimetry in Space." *Journal of Instrumentation*, 12(08), C08007. https://doi.org/10.1088/1748-0221/12/08/C08007
 - Pambaguian, L. et al. (2021). "Additive Manufacturing for Space Habitat Structures." *Acta Astronautica*, 181, 1–13. https://doi.org/10.1016/j.actaastro.2021.01.007
 - Patel, Z. S. et al. (2020). "NASA Human Research Program: Integrated Research Plan." NASA/SP-2020-625.
+- Semones, E. J. et al. (2017). "The Hybrid Electronic Radiation Assessor for Orion Exploration Missions." NASA/TP-2017-219439.
 - Simonsen, L. C. et al. (2024). "Moon to Mars Space Radiation Protection Roadmap." NASA Technical Memorandum (in press).
 - Spillantini, P. et al. (2007). "Active Radiation Shielding for Long-Duration Deep Space Missions." *Radiation Measurements*, 42(9), 1614–1623. https://doi.org/10.1016/j.radmeas.2007.02.054
 - Townsend, L. W. et al. (2018). "Solar Particle Event Storm Shelter Requirements for Space Habitats." *Life Sciences in Space Research*, 18, 29–37. https://doi.org/10.1016/j.lssr.2018.04.001
