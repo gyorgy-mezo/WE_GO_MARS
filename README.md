@@ -58,6 +58,7 @@ The supplier compendium summarizes agile companies supplying hydrogen-rich compo
 
 - **Mars Mission Systems Engineering Question Map** – Imported question tree with analysis of responsible tasks and documentation coverage: [`specs/system-engineering/README.md`](specs/system-engineering/README.md)
 - **LLM Knowledge-Gathering Tree** – Modular prompt hierarchies for harvesting shielding insights: [`specs/system-engineering/LLM_TREE_OVERVIEW.md`](specs/system-engineering/LLM_TREE_OVERVIEW.md)
+- **Storm Shelter Analysis** – Detailed module README for shelter sizing, logistics, and surface berms: [`specs/system-engineering/LLM_TREE_3_SHELTER_README.md`](specs/system-engineering/LLM_TREE_3_SHELTER_README.md)
 
 ## How to Use This Repository
 
