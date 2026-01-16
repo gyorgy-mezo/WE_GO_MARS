@@ -62,6 +62,7 @@ The supplier compendium summarizes agile companies supplying hydrogen-rich compo
 - **GCR & SPE Environment Analysis** – Detailed module README for deep-space and Martian radiation characterization: [`specs/system-engineering/LLM_TREE_1_ENVIRONMENT_README.md`](specs/system-engineering/LLM_TREE_1_ENVIRONMENT_README.md)
 - **Storm Shelter Analysis** – Detailed module README for shelter sizing, logistics, and surface berms: [`specs/system-engineering/LLM_TREE_3_SHELTER_README.md`](specs/system-engineering/LLM_TREE_3_SHELTER_README.md)
 - **Dosimetry & Monitoring Analysis** – Detailed module README for instrumentation, data fusion, and alerting: [`specs/system-engineering/LLM_TREE_4_DOSIMETRY_README.md`](specs/system-engineering/LLM_TREE_4_DOSIMETRY_README.md)
+- **Verification & Risk Analysis** – Detailed module README for testing infrastructure, risk governance, and post-mission learning: [`specs/system-engineering/LLM_TREE_5_VERIFICATION_README.md`](specs/system-engineering/LLM_TREE_5_VERIFICATION_README.md)
 
 ## How to Use This Repository
 
