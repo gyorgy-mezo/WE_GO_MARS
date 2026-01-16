@@ -9,3 +9,4 @@ The repository-wide summary now lives in `README.md` at the project root. This f
 - LLM knowledge-gathering tree: [`specs/system-engineering/LLM_TREE_OVERVIEW.md`](specs/system-engineering/LLM_TREE_OVERVIEW.md)
 - Advanced shielding architectures: [`specs/radiation-shielding/ADVANCED_SHIELDING_README.md`](specs/radiation-shielding/ADVANCED_SHIELDING_README.md)
 - GCR & SPE environment analysis: [`specs/system-engineering/LLM_TREE_1_ENVIRONMENT_README.md`](specs/system-engineering/LLM_TREE_1_ENVIRONMENT_README.md)
+- Mission architecture & crew limits analysis: [`specs/system-engineering/LLM_TREE_0_MISSION_README.md`](specs/system-engineering/LLM_TREE_0_MISSION_README.md)
