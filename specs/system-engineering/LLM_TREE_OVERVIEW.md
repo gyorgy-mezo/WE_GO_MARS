@@ -4,7 +4,7 @@ This overview maps the modular prompt trees that support automated or guided res
 
 ## Modules
 - **0. Mission Context & Exposure Limits**: [`LLM_TREE_0_MISSION.md`](LLM_TREE_0_MISSION.md) · Insights: [`LLM_TREE_INSIGHTS.md#0-mission-context--exposure-limits`](LLM_TREE_INSIGHTS.md#0-mission-context--exposure-limits)
-- **1. Radiation Environment Characterization**: [`LLM_TREE_1_ENVIRONMENT.md`](LLM_TREE_1_ENVIRONMENT.md) · Insights: [`LLM_TREE_INSIGHTS.md#1-radiation-environment-characterization`](LLM_TREE_INSIGHTS.md#1-radiation-environment-characterization)
+- **1. Radiation Environment Characterization**: [`LLM_TREE_1_ENVIRONMENT.md`](LLM_TREE_1_ENVIRONMENT.md) · Analysis README: [`LLM_TREE_1_ENVIRONMENT_README.md`](LLM_TREE_1_ENVIRONMENT_README.md) · Insights: [`LLM_TREE_INSIGHTS.md#1-radiation-environment-characterization`](LLM_TREE_INSIGHTS.md#1-radiation-environment-characterization)
 - **2. Shielding Materials & Structures**: [`LLM_TREE_2_MATERIALS.md`](LLM_TREE_2_MATERIALS.md) · Insights: [`LLM_TREE_INSIGHTS.md#2-shielding-materials--structures`](LLM_TREE_INSIGHTS.md#2-shielding-materials--structures)
 - **3. Storm Shelter & Habitat Design**: [`LLM_TREE_3_SHELTER.md`](LLM_TREE_3_SHELTER.md) · Analysis README: [`LLM_TREE_3_SHELTER_README.md`](LLM_TREE_3_SHELTER_README.md) · Insights: [`LLM_TREE_INSIGHTS.md#3-storm-shelter--habitat-design`](LLM_TREE_INSIGHTS.md#3-storm-shelter--habitat-design)
 - **4. Dosimetry, Monitoring & Forecasting**: [`LLM_TREE_4_DOSIMETRY.md`](LLM_TREE_4_DOSIMETRY.md) · Analysis README: [`LLM_TREE_4_DOSIMETRY_README.md`](LLM_TREE_4_DOSIMETRY_README.md) · Insights: [`LLM_TREE_INSIGHTS.md#4-dosimetry-monitoring--forecasting`](LLM_TREE_INSIGHTS.md#4-dosimetry-monitoring--forecasting)
